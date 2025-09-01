@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="logo-img">
+                <img src="./Images/IMG-20240607-WA0010.jpg" alt="logo" class="logo">
+            </div>
+            <nav>
+                <ol>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservation Page</a></li>
+                    <li><a href="order.html">Online Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ol>
+            </nav>
+            <div id="divorder">
+                <button class="btn"><a href="order.html">Order Now</a></button>
+            </div>
+        </div>
+    </header>
+    <section class="reservation-form">
+        <div class="container">
+      <h2>Table Reservation</h2>
+      <p>Book your table now and enjoy fine dining!</p>
+      <form>
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your full name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter your phone number" required>
+
+        <label for="date">Reservation Date</label>
+        <input type="date" id="date" required>
+
+        <label for="time">Time</label>
+        <input type="time" id="time" required>
+
+        <label for="guests">Number of Guests</label>
+        <select id="guests" required>
+          <option value="">Select</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4+">4+</option>
+        </select>
+
+        <button type="submit">Reserve Now</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+        <p id="footer">© 2025 Home Chef Mom</p>
+  </footer>
+</body>
+</html>

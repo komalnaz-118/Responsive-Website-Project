@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="logo-img">
+                <img src="./Images/IMG-20240607-WA0010.jpg" alt="logo" class="logo">
+            </div>
+            <nav>
+                <ol>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservation Page</a></li>
+                    <li><a href="order.html">Online Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ol>
+            </nav>
+            <div id="divorder">
+                <button class="btn"><a href="order.html">Order Now</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+    <h1>Customer Reviews</h1>
+
+    <div class="rating-summary">
+      <h2>⭐ 4.6 / 5</h2>
+      <p>Based on 320 reviews</p>
+    </div>
+    <section class="reviews">
+      <div class="review-card">
+        <h3>Sarah K.</h3>
+        <p class="stars">★★★★★</p>
+        <p class="comment">The food was amazing and the ambience was perfect!</p>
+        <p class="date">August 10, 2025</p>
+      </div>
+      <div class="review-card">
+        <h3>Ahmed R.</h3>
+        <p class="stars">★★★★☆</p>
+        <p class="comment">Amazing food and lovely service! Definitely coming back soon.</p>
+        <p class="date">August 5, 2025</p>
+      </div>
+      <section class="review-form">
+      <h2>Leave a Review</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <select required>
+          <option value="">Star Rating</option>
+          <option value="5">★★★★★ - Excellent</option>
+          <option value="4">★★★★☆ - Good</option>
+          <option value="3">★★★☆☆ - Average</option>
+          <option value="2">★★☆☆☆ - Poor</option>
+          <option value="1">★☆☆☆☆ - Bad</option>
+        </select>
+        <textarea placeholder="Write your review..." required></textarea>
+        <button type="submit">Submit Review</button>
+      </form>
+    </section>
+  </div>
+  <footer>
+        <p id="footer">© 2025 Home Chef Mom</p>
+  </footer>
+</body>
+</html>

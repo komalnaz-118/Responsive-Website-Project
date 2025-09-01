@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <div id="container">
+            <div id="logo-img">
+                <img src="./Images/IMG-20240607-WA0010.jpg" alt="logo" class="logo">
+            </div>
+            <nav>
+                <ol>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="reservation.html">Reservation Page</a></li>
+                    <li><a href="order.html">Online Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                </ol>
+            </nav>
+            <div id="divorder">
+                <button class="btn"><a href="order.html">Order Now</a></button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+    </div>
+    <div class="container main-content">
+        <section class="contact-form">
+            <form>
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                </div>
+                <div class="input-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+
+                <button id="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="map-section">
+            <h2>Our Location</h2>
+            <iframe id="karachi-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d745990.8506944957!2d66.67347913680626!3d24.86073473572635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f4c5b431a77%3A0x44244f982dc6e20!2sKarachi%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1630620816095!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+    <div class="contact-info">
+        <div class="info-box">
+            <h3>CONTACT US</h3>
+            <p>0331-804-7003</p>
+            <p>0331-804-6980</p>
+            <p>Email:nazkomal118@gmail.com</p>
+        </div>
+        <div class="info-box">
+            <h3>ADDRESS</h3>
+            <p>Gulshan-e-Iqbal, Karachi, Sindh, Pakistan</p>
+        </div>
+
+        <div class="info-box">
+            <h3>OPENING HOURS</h3>
+            <p>Monday - Sunday: 06:30 PM - 02:00 AM</p>
+        </div>
+    </div>
+    <footer>
+        <p id="footer">© 2025 Home Chef Mom</p>
+    </footer>
+</body>
+</html>
